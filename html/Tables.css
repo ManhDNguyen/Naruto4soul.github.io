@@ -1,0 +1,43 @@
+img.mizzou{
+    width: 100px;
+    height: 90px
+    vertical-align:middle;
+    
+}
+#college{
+    font-size: 36px;
+    font-family:firstFont;
+}
+#courseHistory{
+    font-size: 36px;
+    font-family:firstFont;
+}
+.button1{
+    color: white;
+    font-family:firstFont;
+}
+@font-face{
+    font-family:firstFont;
+    src: url(PermanentMarker-Regular.ttf);
+}
+@font-face{
+    font-family:secondFont;
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+body{
+    font-family: secondFont,serif;
+}
+#mainWrapper {
+    width:90%;
+}
+.card1{
+    margin: 1%;
+    width:15vw;
+    box-shadow: 10px 10px 10px gray;
+}
+.card2{
+    color: white;
+}
+.current{
+    background-color:purple;
+}

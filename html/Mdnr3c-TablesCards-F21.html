@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!-- 
+    Name: Manh Nguyen
+    Pawprint:Mdnr3c
+    Date:9/14/2021
+    Challenge: Tables and Cards F21
+-->
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+<!--
+    References:
+        1)Starter Code from module 4
+        2)https://getbootstrap.com/docs/4.0/components/navbar/
+        3)https://getbootstrap.com/docs/5.0/content/tables/#variants
+        4)Lecture 5
+        5)https://getbootstrap.com/docs/5.0/layout/grid/
+        6)https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns
+        7)https://www.google.com/search?q=python+logo&rlz=1C1CHBF_enUS906US906&sxsrf=AOaemvIQmMq0jB2ctjH5oOA56zBTPeTm6A:1631915159938&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjt-qTb_YbzAhUUCs0KHd8MAaAQ_AUoAXoECAEQAw&biw=2560&bih=1297&dpr=1
+        8)https://www.google.com/search?q=google+certification&rlz=1C1CHBF_enUS906US906&sxsrf=AOaemvIjXnjx5y7wJu7R-cL-4-M0ZAZ5Bg:1631870602481&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjBzNHc14XzAhXFK80KHf0mDbwQ_AUoBHoECAEQBg&biw=2560&bih=1240&dpr=1#imgrc=XL4hJ95jRx_l5M
+    Fonts from Google fonts:
+        1)Permanent Marker: https://fonts.google.com/specimen/Permanent+Marker?query=perma#standard-styles
+        2)Raleway-VariableFont: https://fonts.google.com/specimen/Raleway
+-->
+<!-- Start of code from start code from module 4 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" 
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+              crossorigin="anonymous">
+        <!-- External css -->
+        <link rel="stylesheet" type="text/css" href="Tables.css">
+        <title>TablesCard</title>
+<!-- End of code from starter code from module 4 -->
+</head>
+<body class=bg-dark>
+<!--  Start of code from https://getbootstrap.com/docs/4.0/components/navbar/-->
+    <nav class="navbar navbar-expand-lg bg-dark ">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link button1" href="index.html" target="_blank">Manh</a>
+      <a class="nav-item nav-link button1" href="Mdnr3c-Columns-F21.html" target="_blank">Skills</a>
+      <a class="nav-item nav-link button1 current" href="Mdnr3c-TablesCards-F21.html" target="_blank">Courses</a>
+        <a class="nav-item nav-link button1" href="Mdnr3c-Projects-F21.html" target="_blank">Projects</a>
+    </div>
+    </nav>
+<!-- End of code from https://getbootstrap.com/docs/4.0/components/navbar/-->
+<div class="container-fluid table1">
+<!-- Start of code from https://getbootstrap.com/docs/5.0/content/tables/#variants-->
+        <table class="table table-dark table-responsive ">
+            <thead>
+                <tr>
+                    <th colspan="8" class="text-center">
+                        <p id="courseHistory">
+                            Nguyen's Course History
+                        </p>
+                    </th>
+                </tr>
+                <tr> 
+<!-- Start of code from lecture 5 -->
+                    <th colspan="8" class="text-center">
+                        <p id="college">
+                            <img class="mizzou" src="Mdnr3c-TablesCards-F21-MuTiger.png" alt="mizzou tiger">            
+                            University of Missouri in Columbia
+                            <img class="mizzou" src="Mdnr3c-TablesCards-F21-MuTiger.png" alt="mizzou tiger">
+                        </p>
+                    </th>
+<!-- End of code from lecture 5 -->
+                </tr>
+                <tr>
+                    <th class="text-center">Department</th>
+                    <th class="text-center">CID</th>
+                    <th class="text-center">Courses</th>
+                    <th class="text-center">Professor</th>
+                    <th>Description</th>
+                    <th class="text-center">Grade</th>
+                    <th class="text-center">Credit Hours</th>
+                    <th class="text-center">Knowledge Gained</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5" class="align-middle table-primary">Information Technology</td>
+                    <td>1040</td>
+                    <td>Introduction to Problem Solving and Programming</td>
+                    <td>Dale Musser</td>
+                    <td>An introduction to problem solving methods and programming concepts, providing experience in designing, developing, implementing, and testing programs.</td>
+                    <td class="text-center">A+</td>
+                    <td class="text-center">3</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td>1600</td>
+                    <td>Digital System</td>
+                    <td>Dale Musser</td>
+                    <td>This course provides a foundation of knowledge of digital systems including terminology, concepts, architecture, processes, tools, hardware, and software.</td>
+                    <td class="text-center">A</td>
+                    <td class="text-center">3</td>
+                    <td>Computer Systems</td>
+                </tr>
+                <tr>
+                    <td>1610</td>
+                    <td>Introduction to Digital Media Design</td>
+                    <td>Chip Gubera</td>
+                    <td>This project-based course is an introduction to the concepts and practices of audio design, graphic design, motion media design and basic video editing. Current technologies are employed to examine design fundamentals and applications of media design that apply to audio and video production and new media production.</td>
+                    <td class="text-center">A</td>
+                    <td class="text-center">3</td>
+                    <td>Adobe Premier and Photoshop</td>
+                </tr>
+                <tr>
+                    <td>2040</td>
+                    <td>Programming languages and Paradigms</td>
+                    <td>Dale Musser</td>
+                    <td>This course presents programming principles and their syntactical representation and implementation across languages including those that are compiled and interpreted.</td>
+                    <td class="text-center">A</td>
+                    <td class="text-center">3</td>
+                    <td>C#</td>
+                </tr>
+                <tr>
+                    <td>2830</td>
+                    <td>Web Application Development</td>
+                    <td>Nick Weregles</td>
+                    <td>This course will attempt to provide a comprehensive understanding of the evolution, the technologies, and the tools of the Internet. In particular, issues pertaining to the World Wide Web and Multimedia (HTML, CGI, Web based applications) will be discussed in detail</td>
+                    <td class="text-center">N/A</td>
+                    <td class="text-center">3</td>
+                    <td>Html and Css</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="align-middle table-info">Math</td>
+                    <td>1300</td>
+                    <td>Finite Mathematics</td>
+                    <td>Smita Praharaj</td>
+                    <td>A selections of topics in finite mathematics such as: basic financial mathematics, counting methods and basic probability and statistics, systems of linear equations and matrices</td>
+                    <td class="text-center">A</td>
+                    <td class="text-center">3</td>
+                    <td>Basic Algebra</td>
+                </tr>
+                <tr>
+                    <td>1400</td>
+                    <td>Calculus for Social and Life Sciences</td>
+                    <td>Grace Verchota</td>
+                    <td>The real number system, functions, analytic geometry, derivatives, integrals, maximum-minimum problems</td>
+                    <td class="text-center">A</td>
+                    <td class="text-center">3</td>
+                    <td>Calculus</td>
+                </tr>
+                <tr>
+                    <td>2500</td>
+                    <td>Introduction to Probablity and Statistics</td>
+                    <td>Kaiyi Chen</td>
+                    <td>Designed primarily for students in College of Business. Descriptive statistics, probability, random variables, sampling distributions, estimation, confidence intervals, hypothesis tests. Math Reasoning Proficiency course</td>
+                    <td class="text-center">A-</td>
+                    <td class="text-center">3</td>
+                    <td>Excel and Interpreting Stats.</td>
+                </tr> 
+            </tbody>
+        </table>
+<!-- End of code from https://getbootstrap.com/docs/5.0/content/tables/#variants-->
+</div>
+<!-- Start of code from https://getbootstrap.com/docs/5.0/layout/grid/-->
+<div  class="container" id="mainWrapper">
+    <div class="row">
+<!-- Start of code from https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns-->
+        <div class="col-sm-4 d-flex align-items-stretch ">
+            <div class="card card1">
+                <img src="mdnr3c-profile%20picture.jpg" class="card-img-top" alt="ProfilePicture">
+                <div class="card-body bg-dark card2">
+                    <h5 class="card-title">Manh Nguyen</h5>
+                    <p>Junior in Information Technology</p>
+                    <p>Email:tylersilvernguyen@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 d-flex align-items-stretch">
+            <div class="card card1">
+<!-- Image download  from https://www.google.com/search?q=python+logo&rlz=1C1CHBF_enUS906US906&sxsrf=AOaemvIQmMq0jB2ctjH5oOA56zBTPeTm6A:1631915159938&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjt-qTb_YbzAhUUCs0KHd8MAaAQ_AUoAXoECAEQAw&biw=2560&bih=1297&dpr=1-->
+                <img src="Mdnr3c-TablesCards-F21-Card2image.png" class="card-img-top pythonLogo1" alt="pythonLogo" >
+                <div class="card-body bg-dark card2">
+                    <h5 class="card-title">Languages</h5>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+            </div>      
+        </div>
+        <div class="col-sm-4 d-flex align-items-stretch">
+<!-- End of code from https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns-->
+            <div class="card card1">
+<!-- Image download from https://www.google.com/search?q=google+certification&rlz=1C1CHBF_enUS906US906&sxsrf=AOaemvIjXnjx5y7wJu7R-cL-4-M0ZAZ5Bg:1631870602481&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjBzNHc14XzAhXFK80KHf0mDbwQ_AUoBHoECAEQBg&biw=2560&bih=1240&dpr=1#imgrc=XL4hJ95jRx_l5M-->
+                <img src="Mdnr3c-TablesCards-F21-Card3image.png" class="card-img-top pythonLogo1" alt="google" >
+                <div class="card-body bg-dark card2">
+                    <h5 class="card-title">Certifications</h5>
+                    <ul>
+                        <li>Google IT Support Certication</li>
+                        <li>Google Data Analytics Certication</li>
+                        <li>Google IT Automation with Python Professional Certificate</li>
+                    </ul>
+                </div>
+            </div>      
+        </div>  
+    </div>
+</div>
+<!-- End of code from  https://getbootstrap.com/docs/5.0/layout/grid/ -->
+<h2 class="card2">Last Updated by Manh Nguyen Mdnr3c at:9/17/2021</h2>
+</body>
+</html>

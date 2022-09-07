@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--
+    Name:Manh Nguyen
+    Pawprint:Mdnr3c
+    Date:9/07/2021
+    Challenge:Multi-Column Layout F21
+-->
+<!-- 
+    References:
+        1)https://www.w3schools.com/css/css_navbar_horizontal.asp
+        2)Lecture 3
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Multi-Column Layout</title>
+        <style>
+            #header{
+                text-align: center;
+            }
+            body{
+                background-color: lavender;
+            }
+            .leftColumn {
+                float: left;
+                width: 251px;
+                padding: 20px;
+                margin: 23px;
+                height: 425px;
+                border: 9px solid purple;
+                border-radius: 10px;
+                background-color:lavender;
+            }               
+            #middleTop{
+                width: 376px;
+                height: 211px;
+                padding: 22px;
+                border: 6px solid purple;
+                border-radius: 10px;
+                float: left;
+                background-color:lavender;
+                margin-bottom: 30px;               
+            }
+            #middleBottom{
+                width: 376px;
+                height: 130px;
+                padding: 22px;
+                border: 6px solid purple;
+                border-radius: 10px;
+                float: left;
+                background-color:lavender;
+            }
+            .rightColumn{
+                float: left;
+                width: 223px;
+                padding: 20px;
+                margin: 23px;
+                height: 425px;
+                border: 9px solid purple;
+                border-radius: 10px;
+                background-color:lavender;
+                
+            }
+            #mainWrapper {
+                border: 10px solid Purple;
+                padding: 11px;
+                margin: 50px auto;
+                border-radius: 10px;
+                background-color:lavender;
+                width: 1160px;
+            }
+            #rowWrapper{
+                width:432px;
+                margin: 23px;
+                float:left;
+            }
+            /* Start of code from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+            .navbar {
+                position: fixed;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: mediumpurple;
+                top: 0;
+                width:100%;
+            }
+            .buttons {
+                float: left;
+                border-right: 1px solid white;
+            }
+            li a{
+                color:white;
+                text-align: center;
+                margin: 8px;
+                padding: 14px 16px;
+                font-size: 28px;
+                font-family: cursive;
+
+            }
+            li a:hover{
+                background-color: purple;
+            /*  end of code from 3)https://www.w3schools.com/css/css_navbar_horizontal.asp */
+            }
+            .Current{
+                background-color:purple;
+            }
+            /* Start of code from lecture 3  */
+            .clear:after{
+                content: "";
+                clear: both;
+                display: table;
+                
+            }
+            /*  End of code from lecture 3   */
+        </style>
+    </head>
+    <body>
+        <!-- Main wrapper. This div should wrap all columns, row wrapper, and title header -->
+        <div id="mainWrapper" class="clear">
+            <h1 id="header">Skills</h1>
+            <!-- Left Column -->
+            <!-- Put left column physical width calculations here: 
+                251px -> content width
+                40px -> 20px Left padding + 20px Right padding
+                46px -> 23px left margin + 23px right margin
+               + 18px -> 9px right border + 9px right border
+            ===========
+                355px
+            
+
+
+            -->
+            <div class="leftColumn"> 
+                <h2>Education</h2>
+                    <ul>
+                        <li> Metro Academic and Classical High School</li>
+                        <li> University of Missouri in Columbia</li>
+                    </ul>
+                
+            </div>
+            
+            <!-- Row Wrapper. This div will contain two rows -->
+            <!--Put middle column physical width calculations here:
+                432px-> Content width
+                46px-> 23px right margin + 23 left margin
+            ===========
+                478px
+
+
+            -->
+            <div id="rowWrapper" class="clear">
+<!--   top div             -->
+                <div id="middleTop">
+                    <h2>Certifications</h2>
+                    <ul>
+                        <li>Google IT Support Certication</li>
+                        <li> Google Data Analytics Certication</li>
+                        <li>Google IT Automation with Python Professional Certificate</li>
+                    </ul>
+                </div>
+<!--   bottom div          -->
+                <div id="middleBottom">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>Html</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <!--Put right column physical width calculations here: 
+                1160px -> Total Content Width
+                355px -> Left column physical width
+            -   478px -> Row Wrapper physical width
+            =========
+                327px -> Total Content Width
+                40px -> 20px left Padding + 20px right padding
+                46px -> 23px left margin + 23px right margin
+            -   18px -> 9px left border + 9px right border
+            =========
+                223px -> Right column Physical width
+
+
+            -->
+            <div class="rightColumn">
+                <h2>Courses</h2>
+                <ul>
+                    <li>Problem Solve and Programming</li>
+                    <li>Digital Sysyems</li>
+                    <li>Digital Media Design</li>
+                    <li>Programming Languages and Paradigmns</li>
+                    <li>Color Processing and Design</li>
+                    <li>Fund of Network Technology</li>
+                    <li>Web Application Develeopment I</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <h2>Last updated by Manh Nguyen, Mdnr3c: 9/10/2021 </h2>
+            <ul class="navbar">
+            <li class="buttons"><a href="index.html" >Manh Nguyen</a></li>
+            <li class="buttons"><a class="Current" href="Mdnr3c-Columns-F21.html" target="_blank">Skills</a></li>
+            <li class="buttons"><a href="Mdnr3c-TablesCards-F21.html" target="_blank">Courses</a></li>
+            <li class="buttons"><a href="Mdnr3c-Projects-F21.html" target="_blank">Projects</a></li>
+        </ul>
+<!--
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+-->
+    </body>
+</html>

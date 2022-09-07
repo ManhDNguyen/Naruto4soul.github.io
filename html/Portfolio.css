@@ -1,0 +1,110 @@
+/*
+References:
+    1)https://www.w3schools.com/css/css_navbar_horizontal.asp
+    2)https://www.w3schools.com/howto/howto_css_image_center.asp
+    3)https://www.w3schools.com/howto/howto_css_border_image.asp
+    4)https://www.w3schools.com/css/css_margin.asp
+ */
+/* Start of code from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+.navbar {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: mediumpurple;
+    top: 0;
+    width:100%;
+}
+.buttons {
+    float: left;
+    border-right: 1px solid white;
+}
+li a{
+    color:white;
+    text-align: center;
+    margin: 8px;
+    padding: 14px 16px;
+    font-size: 28px;
+    font-family: cursive;
+
+}
+li a:hover{
+    background-color: purple;
+}
+.current{
+    background-color:purple;
+}
+.clear:after{
+    content: "";
+    clear: both;
+    display: table;
+                
+}
+/* end of code from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/* Start of code from https://www.w3schools.com/howto/howto_css_image_center.asp, https://www.w3schools.com/howto/howto_css_border_image.asp and https://www.w3schools.com/css/css_margin.asp */
+#profileimage{
+    position: relative;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 30%;
+    max-height: 30%;
+    margin-top: 110px;
+    margin-bottom: 60px;
+    border: 5px solid purple;
+}
+#header{
+    text-align: center;
+    position: relative;
+    color: mediumpurple;
+    margin:  25 auto 15 auto;
+    
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    color: mediumpurple;
+    
+}
+body{
+    background-color: lavender;
+}
+.btn{
+    background-color: mediumpurple;
+    border:none;
+    font-family: cursive;
+    color: white;
+    float: left;
+    width:56px;
+    padding:1px;
+    position: relative;
+    font-size: 15px;
+    margin-left: 33.33%;
+}
+.btngh{
+    background-color: mediumpurple;
+    border:none;
+    font-family: cursive;
+    color: white;
+    float: left;
+    width:15px;
+    padding:3px;
+    position: relative;
+    font-size: 15px;
+    margin-left:10%;
+    
+}
+.btnln{
+    background-color: mediumpurple;
+    border:none;
+    font-family: cursive;
+    color: white;
+    float: left;
+    width:15px;
+    padding:3px;
+    position: relative;
+    font-size: 15px;
+    margin-left: 14%;
+}
+/* end of code from https://www.w3schools.com/howto/howto_css_image_center.asp, https://www.w3schools.com/howto/howto_css_border_image.asp and https://www.w3schools.com/css/css_margin.asp */
