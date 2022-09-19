@@ -4,8 +4,8 @@ Title: Home Page
 User: Information on my website and my home page
 Author: Manh Nguyen
 School: University of Missouri In Columbia
-Developed: September 4, 2022
-Tested: September 4, 2022
+Developed: September 18, 2022
+Tested: September 18, 2022
 -->
 <html lang="en-US">
 <head>
@@ -17,9 +17,17 @@ Tested: September 4, 2022
 <body>
 <nav>
 <ul>
-    <li><a href="Index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="#projects">Projects</a></li>
+    <li class="navbar1"><a href="Index.html">Home</a></li>
+    <li class="navbar1"><a href="about.html">About</a></li>
+    <li class="dropdown">
+        <a href="#projects" class="dropbtn">Projects</a>
+            <ul class="dropdown-content">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+    <li class="navbar1"><a href="reflection.html">Reflection</a></li>
+    <li class="navbar1"><a href="#contact">Contact</a></li>
 </ul>
 </nav>
 <header>

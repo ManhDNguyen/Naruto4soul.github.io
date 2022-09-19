@@ -1,1 +1,33 @@
-h1{color: #ccffcc ;}
+h1 {
+    color: #5f7161;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+body {
+    background: #EFEAD8;
+}
+
+.paragraphIndent {
+    text-indent: 50px;
+}
+
+.firstLetter::first-letter {
+    font-size: 120%;
+}
+
+p {
+    margin: 30px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#5F7161 ;
+    color: white;
+    text-align: center;
+}
