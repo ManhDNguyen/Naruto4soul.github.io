@@ -1,33 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+Body{
+    background: #EFEAD8;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+h2 {
+    color: #5f7161;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.image{
+    margin: 10rem;
+    margin-bottom: 5rem;
+}
+
+img{
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+}
+
+p{
+    font-size: 2rem;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 2.7rem 7.5rem;
+    background: #5F7161;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background:#6d8b74;
+}
+
 h1 {
     color: #5f7161;
     text-align: center;
 }
-h2{
-    text-align: center;
-}
-
-body {
-    background: #EFEAD8;
-}
-
-.paragraphIndent {
-    text-indent: 50px;
-}
-
-.firstLetter::first-letter {
-    font-size: 120%;
-}
-
-p {
-    margin: 30px;
-}
 
 footer {
-    position: fixed;
+
     left: 0;
     bottom: 0;
-    width: 100%;
+    right: 0;
+    width: 100vw;
+    height: auto;
     background-color:#5F7161 ;
     color: white;
     text-align: center;
+    padding-top: 40px;
+    margin-top: auto;
 }
