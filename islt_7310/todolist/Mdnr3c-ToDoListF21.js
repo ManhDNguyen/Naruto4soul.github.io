@@ -70,7 +70,7 @@ function taskRemove(taskId) {
 
 function toggleMode() {
     if (currentMode === "light") {
-        $("body").css("background-image", "url(./Assets/Mdnr3c-ToDoList-F21-blackground.jpg)");
+        $("body").css("background-image", "url(../todolist/Mdnr3c-ToDoList-F21-blackground.jpg)");
         $("body").css("color", "white");
         $("#my-app-title").css("color", "white");
         $("#task-table").addClass('table-light');
@@ -80,7 +80,7 @@ function toggleMode() {
         currentMode = "dark";
     }
     else {
-        $("body").css("background-image", "url(./Assets/Mdnr3c-ToDoList-F21-whitebackground.jpg)");
+        $("body").css("background-image", "url(../todolist/Mdnr3c-ToDoList-F21-whitebackground.jpg)");
         $("body").css("color", "black");
         $("#my-app-title").css("color", "black");
         $("#task-table").addClass('table-dark');

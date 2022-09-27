@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif !important;
-  background-image: url(./Assets/Mdnr3c-ToDoList-F21-whitebackground.jpg);
+  background-image: url(../todolist/Mdnr3c-ToDoList-F21-whitebackground.jpg);
   /* IMAGE TAKEN FROM https://unsplash.com/photos/0tgMnMIYQ9Y */
 }
 
