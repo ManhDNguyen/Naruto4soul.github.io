@@ -100,6 +100,13 @@ blockquote{
     height: auto;
 }
 
+#phone:hover{
+    transform: scale(2);
+}
+
+#email:hover{
+    transform: scale(2);
+}
 @media only screen and (max-width: 600px) {
     #reflection, #goals {
         font-size: 30px;
