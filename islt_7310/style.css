@@ -33,6 +33,7 @@ h2 {
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 2rem;
+    text-align: center;
 }
 h3{
     font-size: 4rem;
@@ -83,7 +84,7 @@ footer {
     right: 0;
     width: 100vw;
     height: auto;
-    background-image: url(./Images/Campus-Beauty-26.jpg);
+    background-color: #5f7161;
     color: white;
     text-align: center;
     padding-top: 40px;
@@ -121,6 +122,11 @@ blockquote{
     width: 100%;
     height: 100%;
   }
+
+.quote {
+    margin-top: 1em;
+    font-weight: bold;
+}
 @media only screen and (max-width: 600px) {
     #reflection, #goals {
         font-size: 30px;
